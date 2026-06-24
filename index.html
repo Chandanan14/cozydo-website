@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous"
+    >
+
+    <!-- Custom CSS -->
+    <style>
+      .hero {
+    background-color: #8644CA;
+}
+
+.hero-txt {
+    font-size: 50px;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 30% center;
+    display: block;
+}
+
+.cta-btn{
+    background-color: #3a0074;
+    border: none;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cta-btn:hover{
+    background-color: #48068ad8;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+.no-link-style:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.feature-sec {
+    background: #f8f5ff;
+}
+
+
+.feature-card img {
+    width: 200px;
+    aspect-ratio: 9/16;
+    object-fit: cover;
+    border: 8px solid #222;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.feature-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+
+.feature-card h4 {
+    color: #3a0074;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.feature-card p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.footer {
+    background: #3a0074;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-tagline {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    margin-bottom: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #d8b4ff;
+}
+
+.footer-credit {
+    margin-bottom: 10px;
+    color: rgba(255,255,255,0.85);
+}
+
+.footer-credit span {
+    color: #ff6b81;
+}
+
+.footer-copy {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.9rem;
+}
+
+    </style>
+</head>
+<body>
+
+  <section class="container-fluid hero p-0">
+    <div class="row  max-vh-100 g-0">
+
+        <div class="col-md-7">
+            <h1 class=" text-left fw-bold hero-txt p-5 pb-2"
+                 style="color: #3a0074;">
+                COZYDO
+            </h1>
+            <h3 class="text-left fw-normal fs-5 p-5 pt-0"
+                style="color: #1f003e">
+                Your cozy little corner for getting things done.
+            </h3>
+            <p class="text-white fw-bold  fs-1 p-5 pt-0">
+                Organize tasks, celebrate progress, and enjoy productivity.
+            </p>
+
+            <a href="assets/cozydo.apk" download class="cta-btn m-5 mt-0 mb-3 d-inline-block text-center" 
+                style="text-decoration: none;">
+             Get the App
+            </a>
+
+      <a href="#features" class="no-link-style">
+    <p class="pt-0 p-5 ms-md-4 mb-0">See Features</p>
+</a>
+
+        </div>
+
+        <div class="col-md-5 text-center p-0">
+            <img
+                class="img-fluid hero-img"
+                src="assets/hero-img.png"
+                alt="Cozydo"
+            >
+        </div>
+
+    </div>
+</section>
+
+
+<section class="feature-sec py-5">
+  <div class="container">
+    
+    <h2 class="text-center fw-bold mb-5 fs-1" id="features">Features</h2>
+
+    <div class="row g-4">
+
+      <!-- Feature 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature1.jpeg" alt="Task Management">
+          <h4>✅ Task Management</h4>
+          <p>Create, organize, and complete tasks with ease.</p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature2.jpeg" alt="celebrate progress">
+          <h4>🎉 Celebrate Progress</h4>
+          <p>Enjoy satisfying confetti rewards for every completed task.</p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+     <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature3.jpeg" alt="instant search">
+          <h4>🔍 Instant Search</h4>
+          <p>Find any task in seconds with real-time search.</p>
+        </div>
+      </div>
+
+      <!-- Feature 4 -->
+     <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature4.jpeg" alt="categories">
+          <h4>📂 Smart Categories</h4>
+          <p>Keep work, study, and personal tasks neatly organized.</p>
+        </div>
+      </div>
+
+      <!-- Feature 5 -->
+   <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature5.jpeg" alt="dark Mode">
+          <h4>🌙 Dark Mode</h4>
+          <p>Switch between light and dark themes whenever you want.</p>
+        </div>
+      </div>
+
+      <!-- Feature 6 -->
+     <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <img src="assets/feature6.jpeg" alt="settings">
+          <h4>⚙️ Personalized Experience</h4>
+          <p>Customize sounds, haptics, confetti, and more.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-logo">
+        CozyDo 🧸
+    </div>
+
+    <p class="footer-tagline">
+        Your Cozy Task Companion.
+    </p>
+
+    <div class="footer-links">
+        <a href="#">Get CozyDo</a> •
+        <a href="#features">Features</a> •
+        <a href="#">Privacy</a> •
+        <a href="#">Support</a>
+    </div>
+
+    <p class="footer-credit">
+        made with <span>❤️</span> by Chandana N
+    </p>
+
+    <p class="footer-copy">
+        © 2026 CozyDo. All rights reserved.
+    </p>
+</footer>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
