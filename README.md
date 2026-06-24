@@ -2,6 +2,10 @@
 
 Official landing page for CozyDo — a cozy and minimal productivity app built with React Native.
 
+🌐 Live Website: https://cozydo-one.vercel.app
+
+App Main Repo: https://github.com/Chandanan14/cozydo-app
+
 ## ✨ About
 
 CozyDo helps you stay organized while keeping task management simple and enjoyable. This landing page provides information about the app, screenshots, feature highlights, changelogs, and APK downloads.
